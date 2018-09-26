@@ -1,0 +1,95 @@
+Name : Ishita Verma
+
+1.  if f(n) = 3n2 + n3 lg n, then f(n) is
+
+ ANSWER:     c. O(n^3 lg n)
+
+2.            What is the asymptotic relationship between the functions: xp and kx? (Assuming that p ≥ 1 and k > 1 are constants:)
+
+ANSWER:       a. x^p is O(k^x)
+
+3.            For functions, n^k and c^n , what is the asymptotic relationship between these functions? Assume that k ≥ 1,and c ≥ 1 are constant.
+
+ANSWER:       c.  n^k is Θ(c^n)
+
+
+
+4.            If f(n) = 5 lg n + 2 lg n! + (n2 + 1) lg n, what is the big-O notation for f(n)?
+
+ANSWER:         d. n^2 lg n
+
+5.            What is the time complexity for the following piece of code?
+
+
+
+                 sum = 0;
+
+                 for (int i = 0; i < n; i++)
+
+                     for (j = 1; j < n; j = j * 2)
+
+                         sum += n;
+
+
+
+ ANSWER:       d. O(n lg n)
+
+6.            If f(x) = (x3 − 1) / (5x + 1) then f(x) is
+
+ANSWER:       a.  O(x^2)
+
+7.            The Big-O complexity of 1 + 2 + 3 + 4 ... + n is? (Assume we must add the numbers one at a time, rather than using Gauss's trick to get a closed form for the sum.)
+
+ANSWER:        a. O(n)
+
+8.            The Big-O complexity of 1 + 2 + 3 + 4 + ... + 100 is? (Assume we must add the numbers one at a time, rather than using Gauss's trick to get a closed form for the sum.)
+
+ANSWER:        a. O(1)
+
+9.            What is big O for following code?
+
+
+
+                    void complex(int n)
+
+                    {
+
+                        int i, j;
+
+                        for(i = 1; i < n; i++) {
+
+                            for(j = 1; j < log(i); j++)
+
+                        }
+
+                        printf("Algorithms");
+
+                    }
+
+
+
+ANSWER: O(n log n)
+
+
+
+10.          What is big O for following code?
+
+
+
+                    void complex(int n)
+
+                    {
+
+                        int i;
+
+                        for(i = n; i > 1; i = i/2){
+
+                            printf("Algorithms")
+
+                        }
+
+                    }
+
+
+
+ANSWER: O(log n)
